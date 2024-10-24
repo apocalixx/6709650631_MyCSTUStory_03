@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Athiti);
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/angelina');
+
+@font-face {
+    font-family: "Shifty Notes ";
+    src: url(resources/Shifty\ Notes\ Regular\ 400.ttf);
+}
+
+@font-face {
+    font-family: Luminous;
+    src: url(resources/Luminous\ 400.otf);
+}
+
+@font-face {
+    font-family: Autumn in September;
+    src: url(resources/Autumn\ in\ September.ttf);
+    font-family: Rows of Sunflowers;
+    src: url(resources/Rows\ of\ Sunflowers.ttf);
+}
+
+body {
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+    
+}
+
+header{
+    text-align: center;
+    font-family: 'Digital-7 Mono', sans-serif;
+    font-size: 32px;
+}
+
+#page {
+    background-color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:darkred;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    float: left;
+}
+
+.title {
+    font-family: 'Digital-7 Mono', sans-serif;
+    font-size: 36px;
+    list-style-type: none;
+    color: darkred;
+    line-height: 1;
+}
+
+.description {
+    font-family: 'Digital-7 Mono', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: darkred;
+}
+
+.info {
+    line-height: 3;
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+#infosec{
+    padding-left: 100px;
+}
+
+#self {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 500px;
+    top: 450px;
+}
+
+#mybio{
+    width: 350px;
+    height: auto;
+}
+
+.jtitle{
+    font-size: 30px;
+    list-style-type: none;
+    color: darkred;
+    line-height: 3;
+}
+
+.jinfo{
+    line-height: 3;
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+}
+
+.jinfosec{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tc{
+    color: darkred;
+    line-height: 1.5;
+    font-family: Bai Jamjuree;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fbox { /*from box model module 05 special thanks*/
+    width: auto; /* Content width */
+    padding: 20px; /* Space between content and border */
+    border: 0.00001px dotted black; /* Border around the box */ /*because she's dttodot so I use dotted <3*/
+    margin: 20px auto; /* Space outside the border, centered horizontally */
+    background-color: #ffffff; /* Background color of the box */
+    box-sizing: content-box; /* Default box-sizing */
+    margin-left: 30px;
+    margin-right: 30px;
+  
+}
+
+.fbtext {
+    color: darkred;
+    font-family: Rows of Sunflowers;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 3px;
+}
