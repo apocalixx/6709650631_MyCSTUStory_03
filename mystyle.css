@@ -225,7 +225,7 @@ header{
     border-radius: 50%;
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 320px){
     #self {
         display: block;
         position: static;
