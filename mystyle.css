@@ -51,6 +51,12 @@ header{
     font-size: 32px;
 }
 
+@media screen and (max-width: 1440px) {
+    header {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     header {
         font-size: 26px;
@@ -99,6 +105,11 @@ header{
     float: left;
 }
 
+@media screen and (max-width: 1440px) {
+    .navbar {
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 1024px){
     .navbar {
         font-size: 14px;
@@ -176,13 +187,13 @@ header{
     list-style-type: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
     .infotext {
         font-size: 16px;
     }
 
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .infotext {
         font-size: 14px;
     }
@@ -225,17 +236,18 @@ header{
     border-radius: 50%;
 }
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
     #self {
         display: block;
         position: static;
         margin-left: auto;
         margin-right: auto;
         width: 150px;
+        align-self: center;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     #self {
         position: absolute;
         margin-left: auto;
@@ -245,7 +257,7 @@ header{
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
     #self {
         position: absolute;
         margin-left: auto;
@@ -255,6 +267,16 @@ header{
     }
 }
 
+@media screen and (max-width: 1440px){
+    #self {
+        display: block;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        align-self: center;
+    }
+}
 /*my future*/
 #mybio{
     width: 350px;
